@@ -1,11 +1,17 @@
 import {
   BadgeDollarSign,
+  Check,
+  Facebook,
   Flag,
   GraduationCap,
+  Instagram,
+  LayoutDashboard,
   Sparkles,
   Star,
   Sun,
   Swords,
+  Trophy,
+  Twitter,
   Users,
 } from "lucide-react";
 import React from "react";
@@ -19,6 +25,12 @@ export const ICONS = {
   swords: Swords,
   flag: Flag,
   "badge-dollar-sign": BadgeDollarSign,
+  trophy: Trophy,
+  check: Check,
+  'layout-dashboard': LayoutDashboard,
+  facebook: Facebook,
+  instagram: Instagram,
+  twitter: Twitter,
 };
 
 function Icon({

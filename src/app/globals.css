@@ -13,7 +13,9 @@
 body {
   color: var(--foreground-rgb);
   background: #FCFAFF;
+  font-family: var(--font-family-primary);
 }
+
 
 @layer utilities {
   .text-balance {

@@ -9,7 +9,7 @@ export type itemProps = {
 
 function MessionItem({ icon, title, description }: itemProps) {
   return (
-    <div className="space-y-5 p-6">
+    <div className="space-y-5 p-6 bg-secondary border-4 border-white rounded-lg">
       <span className="block p-5 rounded-lg bg-primary w-fit">
         <Icon name={icon} className="text-white bg-primary w-8 h-8" />
       </span>

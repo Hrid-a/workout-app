@@ -1,9 +1,10 @@
 import * as React from "react";
-import logo from "../../../public/logo.svg";
 import Image from "next/image";
 import Link from "next/link";
 
-function Header() {
+import logo from "../../../public/logo.svg";
+
+function Header({ children }: { children: React.ReactNode }) {
   return (
     <header className="flex py-5 items-center">
       <Link href="/" className="flex gap-1 items-end">
@@ -16,15 +17,7 @@ function Header() {
         />
         <h1 className="font-bold text-4xl mt-3 uppercase ">Fit</h1>
       </Link>
-      <div className="ml-auto flex">
-        <button className="bg-primary px-4 py-3 text-center text-xl text-white rounded-lg hover:bg-primary/80 transition-colors capitalize">
-          sign in
-        </button>
-        <button className="hidden sm:block bg-primary px-4 py-3 text-center text-xl text-white ml-3 rounded-lg hover:bg-primary/80 transition-colors capitalize">
-          {" "}
-          sign up
-        </button>
-      </div>
+      <div className="ml-auto flex gap-4">{children}</div>
     </header>
   );
 }
