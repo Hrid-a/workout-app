@@ -3,6 +3,7 @@ import * as React from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 
+// this was a mistake this should be on a new branch""
 function ChoosePlanBtn({
   planType,
   setPlanType,
