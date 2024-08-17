@@ -7,6 +7,8 @@ type cardProps = React.PropsWithChildren<{
   icon: keyof typeof ICONS;
 }>;
 
+// this another one to test pushing with cherrypick
+
 function Card({ children, title, price, icon }: cardProps) {
   return (
     <div className="bg-white p-7 w-fit rounded-lg">
