@@ -7,7 +7,6 @@ type cardProps = React.PropsWithChildren<{
   icon: keyof typeof ICONS;
 }>;
 
-// this is a comment to test or at least to know what to do with my mistake
 function Card({ children, title, price, icon }: cardProps) {
   return (
     <div className="bg-white p-7 w-fit rounded-lg">
