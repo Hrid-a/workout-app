@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { cn } from "@/lib/utils";
 
 // this was a mistake this should be on a new branch""
+// this another one for testing git reset --soft
 function ChoosePlanBtn({
   planType,
   setPlanType,
